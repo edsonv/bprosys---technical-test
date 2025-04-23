@@ -13,14 +13,14 @@ export const NavigationMenu = () => {
     <nav className='flex justify-between relative py-4 items-center px-4 border border-t-0 border-x-0'>
       <div>LOGO</div>
       <button
-        className='border p-1 rounded-sm cursor-pointer'
+        className='border p-1 rounded-sm cursor-pointer sm:hidden'
         onClick={toggleMenu}
       >
         <Image src='/bars_icon.svg' alt='Menu icon' width={20} height={20} />
       </button>
       <ul
         ref={menuRef}
-        className='absolute top-16 border bg-white right-0 left-0 hidden'
+        className='absolute top-16 border bg-white right-0 left-0 hidden sm:flex sm:static sm:border-0'
       >
         {['Sobre nosotros', 'Impacto', 'Trabaja con nosotros'].map((el, i) => (
           <li key={el + i} className='bg-white'>

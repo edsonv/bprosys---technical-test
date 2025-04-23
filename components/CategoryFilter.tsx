@@ -5,7 +5,7 @@ import { Category } from '@/types/Category';
 export const CategoryFilter = () => {
   const { setCurrentCategory } = useCategoryContext();
   return (
-    <ul className='flex border justify-around'>
+    <ul className='flex border justify-around sm:justify-center flex-wrap gap-2 sm:gap-4 md:gap-8 p-2'>
       <li>
         <button
           className='cursor-pointer'
