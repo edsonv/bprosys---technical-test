@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from 'react';
-import { Category } from './Product';
+import { Category } from './Category';
 
 export type CategoryContextType = {
   currentCategory: Category;
