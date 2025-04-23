@@ -33,6 +33,8 @@ npm run dev
 El proyecto estará disponible en la ruta:
 [https://localhost:3000](http://localhost:3000)
 
+También puedes ver el proyecto desplegado en Vercel en [https://bprosys-technical-test.vercel.app/](https://bprosys-technical-test.vercel.app/)
+
 # Preguntas complementarias
 
 ## ¿Qué criterios seguiste para diseñar la UI de productos financieros?
